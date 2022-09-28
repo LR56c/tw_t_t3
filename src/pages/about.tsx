@@ -187,34 +187,188 @@ const About: FC = () =>
         {/*  </nav>*/ }
         {/*</div>*/ }
       </div>
-      <div
-        // className="container"
-        className="overflow-x-auto"
+      {/*<div*/ }
+      {/*  className="container"*/ }
+      {/*  className="overflow-x-auto"*/ }
+      {/*>*/ }
+      {/*  <table*/ }
+      {/*    className="table table-zebra w-full"*/ }
+      {/*  >*/ }
+      {/*    <thead>*/ }
+      {/*    <tr>*/ }
+      {/*      <th>Pais</th>*/ }
+      {/*      <th>Ciudad</th>*/ }
+      {/*    </tr>*/ }
+      {/*    </thead>*/ }
+      {/*    <tbody>*/ }
+      {/*    <tr>*/ }
+      {/*      <td>Peru</td>*/ }
+      {/*      <td>Lima</td>*/ }
+      {/*    </tr>*/ }
+      {/*    <tr>*/ }
+      {/*      <td>Colombia</td>*/ }
+      {/*      <td>Bogota</td>*/ }
+      {/*    </tr>*/ }
+      {/*    <tr>*/ }
+      {/*      <td>España </td>*/ }
+      {/*      <td>Madrid</td>*/ }
+      {/*    </tr>*/ }
+      {/*    </tbody>*/ }
+      {/*  </table>*/ }
+      {/*</div>*/ }
+
+      {/*<div*/ }
+      {/*  className="container mt-4 bg-blue-200"*/ }
+      {/*>*/ }
+      {/*<div*/ }
+      {/*  className="bg-gray-300 w-64 h-32 p-8 border-8 border-gray-500 box-content"*/ }
+      {/*>*/ }
+      {/*  <div*/ }
+      {/*    className="bg-gray-500 h-full w-full"*/ }
+      {/*  >*/ }
+      {/*  </div>*/ }
+      {/*</div>*/ }
+      {/*</div>*/ }
+
+      {/*<div*/ }
+      {/*  className="container mt-4 bg-blue-200"*/ }
+      {/*>*/ }
+      {/*  <div*/ }
+      {/*    className="bg-gray-400 text-gray-700 text-center px-4 py-2 inline-block"*/ }
+      {/*  >*/ }
+      {/*    1*/ }
+      {/*  </div>*/ }
+      {/*  <div*/ }
+      {/*    className="bg-gray-400 text-gray-700 text-center px-4 py-2 inline-block m-2"*/ }
+      {/*  >*/ }
+      {/*    2*/ }
+      {/*  </div>*/ }
+      {/*  <div*/ }
+      {/*    className="bg-gray-400 text-gray-700 text-center px-4 py-2 inline-block"*/ }
+      {/*  >*/ }
+      {/*    3*/ }
+      {/*  </div>*/ }
+      {/*</div>*/ }
+
+      {/*<div*/}
+      {/*  className="container"*/}
+      {/*>*/}
+      {/*  <p className="mb-2 clear-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptates ea facere! Necessitatibus porro deleniti doloribus soluta saepe provident, fugiat esse quisquam commodi sit similique, voluptate cupiditate, tempore nostrum dicta.</p>*/}
+      {/*  <p className="mb-2">Iusto repudiandae asperiores aspernatur hic laboriosam adipisci accusamus, delectus sint repellat beatae? Vitae autem, omnis obcaecati ullam fugit eaque. Dolore ipsam dolorum quaerat quisquam ratione minus labore voluptatibus ducimus ex?</p>*/}
+      {/*  <p className="mb-2">Dolore odio excepturi voluptatibus repellat commodi, harum asperiores ipsa omnis similique explicabo, alias qui eaque, quo ea ipsam iste animi dicta vitae minima quibusdam eius esse aut. Nulla, eligendi ea.</p>*/}
+      {/*  <p className="mb-2">Fuga alias temporibus, ducimus dolorum nam debitis atque ipsum vero sapiente sint porro cumque, facilis quam autem reprehenderit! Numquam, quis fuga commodi aperiam rerum consequuntur distinctio deleniti sed quia exercitationem?</p>*/}
+      {/*  <p className="mb-2">Blanditiis iusto vel ratione quaerat dolore corrupti autem voluptatem soluta tempore facere ex ad error magni aut non maiores libero corporis maxime doloremque, sed saepe perspiciatis consequatur! Molestias, doloribus facere?</p>*/}
+      {/*</div>*/}
+
+      {/*<div*/}
+      {/*  className="container bg-gray-300"*/}
+      {/*>*/}
+      {/*  <img*/}
+      {/*    className="w-full h-64 object-cover object-none"*/}
+      {/*    src="https://cdn.pixabay.com/photo/2020/04/02/11/37/football-pitch-4994688__340.jpg"*/}
+      {/*    alt="Imagen"*/}
+      {/*  />*/}
+      {/*</div>*/}
+
+      {/*<div*/}
+      {/*  className="container"*/}
+      {/*>*/}
+      {/*    <div*/}
+      {/*      className="bg-gray-300 p-4 h-64 overflow-auto"*/}
+      {/*    >*/}
+      {/*      <p className="mb-2 clear-left">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis voluptates ea facere! Necessitatibus porro deleniti doloribus soluta saepe provident, fugiat esse quisquam commodi sit similique, voluptate cupiditate, tempore nostrum dicta.</p>*/}
+      {/*      <p className="mb-2">Iusto repudiandae asperiores aspernatur hic laboriosam adipisci accusamus, delectus sint repellat beatae? Vitae autem, omnis obcaecati ullam fugit eaque. Dolore ipsam dolorum quaerat quisquam ratione minus labore voluptatibus ducimus ex?</p>*/}
+      {/*      <p className="mb-2">Dolore odio excepturi voluptatibus repellat commodi, harum asperiores ipsa omnis similique explicabo, alias qui eaque, quo ea ipsam iste animi dicta vitae minima quibusdam eius esse aut. Nulla, eligendi ea.</p>*/}
+      {/*      <p className="mb-2">Fuga alias temporibus, ducimus dolorum nam debitis atque ipsum vero sapiente sint porro cumque, facilis quam autem reprehenderit! Numquam, quis fuga commodi aperiam rerum consequuntur distinctio deleniti sed quia exercitationem?</p>*/}
+      {/*      <p className="mb-2">Blanditiis iusto vel ratione quaerat dolore corrupti autem voluptatem soluta tempore facere ex ad error magni aut non maiores libero corporis maxime doloremque, sed saepe perspiciatis consequatur! Molestias, doloribus facere?</p>*/}
+      {/*    </div>*/}
+      {/*</div>*/}
+
+      {/*<div className="container mt-4">*/}
+      {/*  <div className="bg-gray-300 p-4 relative">*/}
+      {/*    <div className="bg-gray-400 p-4">*/}
+      {/*      <div className="bg-blue-400 p-4"></div>*/}
+      {/*      <div className="bg-blue-500 p-4 absolute inset-x-0 top-0"></div>*/}
+      {/*    </div>*/}
+      {/*  </div>*/}
+      {/*</div>*/}
+
+      {/*<div>*/}
+        {/*<nav*/}
+        {/*  className="bg-blue-300 h-16 fixed inset-x-0 z-50"*/}
+        {/*>*/}
+        {/*</nav>*/}
+
+        {/*<aside*/}
+        {/*  className="w-64 bg-gray-800 fixed inset-y-0"*/}
+        {/*>*/}
+        {/*</aside>*/}
+
+        {/*<div*/}
+        {/*  className="container pt-16"*/}
+        {/*>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*  <p>Ubi est fatalis stella?Zirbuss sunt orexiss de talis adelphis.Omnias potus in nobilis piscinam!Nunquam transferre tata.Burguss accelerare, tanquam salvus planeta.Vae.A falsis, solem emeritis byssus.Heuretess trabem, tanquam dexter luna.Ecce, ferox lamia!Pol, neuter devirginato!</p>*/}
+        {/*</div>*/}
+      {/*</div>      */}
+
+      {/* <div
+        className="container"
       >
-        <table
-          className="table table-zebra w-full"
+        <h1
+          className="bg-gray-300 text-gray-700 font-bold sticky top-0 z-"
         >
-          <thead>
-          <tr>
-            <th>Pais</th>
-            <th>Ciudad</th>
-          </tr>
-          </thead>
-          <tbody>
-          <tr>
-            <td>Peru</td>
-            <td>Lima</td>
-          </tr>
-          <tr>
-            <td>Colombia</td>
-            <td>Bogota</td>
-          </tr>
-          <tr>
-            <td>España </td>
-            <td>Madrid</td>
-          </tr>
-          </tbody>
-        </table>
+          titulo 1
+        </h1>
+        <p>Agripetas assimilant in virundum!Sunt eposes vitare camerarius, azureus lunaes.Abactus barbatus pars est.Grandis ionicis tormento solite locuss luna est.</p>
+        <p>Agripetas assimilant in virundum!Sunt eposes vitare camerarius, azureus lunaes.Abactus barbatus pars est.Grandis ionicis tormento solite locuss luna est.</p>
+        <p>Agripetas assimilant in virundum!Sunt eposes vitare camerarius, azureus lunaes.Abactus barbatus pars est.Grandis ionicis tormento solite locuss luna est.</p>
+        <p>Agripetas assimilant in virundum!Sunt eposes vitare camerarius, azureus lunaes.Abactus barbatus pars est.Grandis ionicis tormento solite locuss luna est.</p>
+
+        <h1
+          className="bg-gray-300 text-gray-700 font-bold sticky top-0"
+        >
+          titulo 2
+        </h1>
+        <p>Agripetas assimilant in virundum!Sunt eposes vitare camerarius, azureus lunaes.Abactus barbatus pars est.Grandis ionicis tormento solite locuss luna est.</p>
+        <p>Agripetas assimilant in virundum!Sunt eposes vitare camerarius, azureus lunaes.Abactus barbatus pars est.Grandis ionicis tormento solite locuss luna est.</p>
+        <p>Agripetas assimilant in virundum!Sunt eposes vitare camerarius, azureus lunaes.Abactus barbatus pars est.Grandis ionicis tormento solite locuss luna est.</p>
+        <p>Agripetas assimilant in virundum!Sunt eposes vitare camerarius, azureus lunaes.Abactus barbatus pars est.Grandis ionicis tormento solite locuss luna est.</p>
+
+        <h1
+          className="bg-gray-300 text-gray-700 font-bold sticky top-0"
+        >
+          titulo 3
+        </h1>
+        <p>Agripetas assimilant in virundum!Sunt eposes vitare camerarius, azureus lunaes.Abactus barbatus pars est.Grandis ionicis tormento solite locuss luna est.</p>
+        <p>Agripetas assimilant in virundum!Sunt eposes vitare camerarius, azureus lunaes.Abactus barbatus pars est.Grandis ionicis tormento solite locuss luna est.</p>
+        <p>Agripetas assimilant in virundum!Sunt eposes vitare camerarius, azureus lunaes.Abactus barbatus pars est.Grandis ionicis tormento solite locuss luna est.</p>
+        <p>Agripetas assimilant in virundum!Sunt eposes vitare camerarius, azureus lunaes.Abactus barbatus pars est.Grandis ionicis tormento solite locuss luna est.</p>
+      </div> */}
+
+
+      <div className="container">
+        <div className="bg-gray-300 flex">
+          <div className="bg-gray-400 text-gray-700 px-2 m-2 py-2 flex-1">1</div>
+          <div className="bg-gray-400 text-gray-700 px-2 m-2 py-2 flex-1">2</div>
+          <div className="bg-gray-400 text-gray-700 px-2 m-2 py-2">3</div>
+        </div>
       </div>
     </>
   )
