@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
-import { CustomSVGImage } from "../utils/CustomSVGImage";
+import { CustomSVGImage } from "../utils";
 
 const Home: NextPage = () =>
 {
