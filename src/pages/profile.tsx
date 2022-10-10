@@ -41,7 +41,7 @@ const Profile: FC = () =>
         darkText
         transparent={ false }
         backButtonAction={ () => router.back() }
-        rightElementAction={ () => {} }
+        rightElementAction={ () => console.log( "NotificationBell" ) }
       />
       <ProfileBackground/>
       <ProfileInfo
