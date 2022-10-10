@@ -6,9 +6,19 @@ import { CourseInfo } from "../utils/CourseInfo";
 import { LessonInfo, LessonInfoProps } from "../utils/LessonInfo";
 import { BsPlayCircle } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
+import { useRouter } from "next/router";
+
+interface LessonData
+{
+  Element: JSX.Element;
+  title: string;
+  description: string;
+  minutes: number;
+  percentage: number;
+}
 
 // TODO: ver otra alternativa a la de usar el componente de react-icons
-export const lessons: LessonInfoProps[] = [
+export const lessons: LessonData[] = [
   {
     title      : "Introduction",
     description: "Get familiar with the subjerct adn see the lessons overview",
@@ -41,6 +51,8 @@ export const lessons: LessonInfoProps[] = [
 
 const Course: FC = () =>
 {
+  const router = useRouter()
+
   return (
     <>
       <CNav
@@ -74,6 +86,7 @@ const Course: FC = () =>
         { lessons.map( ( lesson ) =>
           (
             <LessonInfo
+              clickAction={ () => router.push( "/complete" ) }
               key={ lesson.title }
               description={ lesson.description }
               Element={ lesson.Element }
