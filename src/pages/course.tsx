@@ -67,7 +67,7 @@ const Course: FC = () =>
         darkText
         title="Your Course"
         transparent={ false }
-        backButtonAction={ null }
+        backButtonAction={ () => {} }
         rightElementAction={ () => router.push( "/profile" ) }
       />
       <SearchBar/>
