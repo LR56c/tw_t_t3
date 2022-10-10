@@ -8,7 +8,7 @@ import { BsPlayCircle } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 
 // TODO: ver otra alternativa a la de usar el componente de react-icons
-const lessons: LessonInfoProps[] = [
+export const lessons: LessonInfoProps[] = [
   {
     title      : "Introduction",
     description: "Get familiar with the subjerct adn see the lessons overview",
