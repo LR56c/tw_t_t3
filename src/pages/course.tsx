@@ -3,7 +3,7 @@ import { CNav } from "../utils/CNav";
 import { CustomSVGImage } from "../utils";
 import { SearchBar } from "../utils/SearchBar";
 import { CourseInfo } from "../utils/CourseInfo";
-import { LessonInfo, LessonInfoProps } from "../utils/LessonInfo";
+import { LessonInfo } from "../utils/LessonInfo";
 import { BsPlayCircle } from "react-icons/bs";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { useRouter } from "next/router";
@@ -67,6 +67,8 @@ const Course: FC = () =>
         darkText
         title="Your Course"
         transparent={ false }
+        backButtonAction={ null }
+        rightElementAction={ () => router.push( "/profile" ) }
       />
       <SearchBar/>
       <CourseInfo
