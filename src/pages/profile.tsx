@@ -41,7 +41,7 @@ const Profile: FC = () =>
         darkText
         transparent={ false }
         backButtonAction={ () => router.back() }
-        rightElementAction={ null }
+        rightElementAction={ () => {} }
       />
       <ProfileBackground/>
       <ProfileInfo

@@ -40,7 +40,7 @@ const Home: NextPage = () =>
           darkText
           title="Your Course"
           transparent={ false }
-          backButtonAction={ null }
+          backButtonAction={ () => {} }
           rightElementAction={ () => router.push( "/profile" ) }
         />
         <SearchBar/>
