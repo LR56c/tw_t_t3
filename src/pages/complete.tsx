@@ -1,8 +1,11 @@
 import { FC } from "react";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 const Complete: FC = () =>
 {
+  const router = useRouter()
+
   return (
     <div
       className="h-screen w-screen flex flex-col items-center justify-center"
@@ -35,7 +38,9 @@ const Complete: FC = () =>
       <div
         className="flex flex-col basis-1/5 justify-center"
       >
-        <button className="btn h-2/4 btn-sm md:btn-wide btn-warning text-white rounded-full capitalize">
+        <button
+          onClick={ () => router.push( "/" ) }
+          className="btn h-2/4 btn-sm md:btn-wide btn-warning text-white rounded-full capitalize">
           Proceed To The Next Lesson
         </button>
       </div>

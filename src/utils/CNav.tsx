@@ -7,24 +7,28 @@ interface CNavProps
   darkText: boolean;
   rightElement: JSX.Element;
   transparent: boolean;
+  backButtonAction: () => void;
+  rightElementAction: () => void;
 }
 
 export const CNav: FC<CNavProps> = ( {
   rightElement,
   darkText = true,
   title = "Your Course",
-  transparent = false
+  transparent = false,
+  rightElementAction,
+  backButtonAction
 } ) =>
 {
   return (
     <nav
       className={ `w-full flex justify-between shadow-lg items-center py-3 sticky top-0 z-10 ${ transparent
-                                                                                      ? 'bg-transparent'
-                                                                                        : 'bg-gray-100' }` }
+        ? 'bg-transparent'
+        : 'bg-gray-100' }` }
     >
       <div
         className="ml-3 cursor-pointer"
-        onClick={ () => console.log( "back click" ) }
+        onClick={ backButtonAction }
       >
         <MdArrowBackIosNew
           className={ `${ darkText ? "" : "text-white fill-current" }` }
@@ -37,7 +41,7 @@ export const CNav: FC<CNavProps> = ( {
       </div>
       <div
         className="mr-3 cursor-pointer"
-        onClick={ () => console.log( "click" ) }
+        onClick={ rightElementAction }
       >
         { rightElement }
       </div>

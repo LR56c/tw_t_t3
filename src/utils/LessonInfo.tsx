@@ -8,6 +8,7 @@ export interface LessonInfoProps
   description: string;
   minutes: number;
   percentage: number;
+  clickAction: () => void;
 }
 
 export const LessonInfo: FC<LessonInfoProps> = ( {
@@ -16,11 +17,13 @@ export const LessonInfo: FC<LessonInfoProps> = ( {
   minutes = 34,
   percentage = 20,
   title = "Introduction",
+  clickAction
 } ) =>
 {
   return (
     <div
-      className="h-32 bg-white rounded-3xl mx-4 relative overflow-hidden grid grid-cols-9 grid-rows-3 relative"
+      onClick={ clickAction }
+      className="cursor-pointer h-32 bg-white rounded-3xl mx-4 relative overflow-hidden grid grid-cols-9 grid-rows-3 relative"
     >
       <div
         className="px-2 w-16 h-16 col-span-2 row-span-2 relative self-center place-self-center"
